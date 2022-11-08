@@ -1,20 +1,23 @@
 # Online Shopping Application 
 
+This is a Collaborative project, we have built a rest API service for an Online Shopping Application with 5 Team members in around 5 days.
 
 ## Entity Relationship Diagram
-____________________________________________________________________________________________________________________________________
+
+ * Loding please wait 
 
 
 
 
 ## Functionalities
 
+ * Loding please wait 
 
 
 
 ## Backend Work
 
-
+ * Loding please wait 
 
 ## Tech Stacks
 * Java Core
