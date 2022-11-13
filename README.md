@@ -11,13 +11,20 @@ This is a Collaborative project, we have built a rest API service for an Online 
 
 ## Functionalities
 
- * Loding please wait 
+* User can register/login
+* See all products
+* Find products by category
+* Add to cart/edit into the cart
+* Place Order
 
 
 
 ## Backend Work
 
- * Loding please wait 
+ * Proper Exception Handling
+ *Proper Input Validation
+ * Data Stored in the database(mySQL)
+ * User Authentication of signUp and Login
 
 ## Tech Stacks
 * Java Core
