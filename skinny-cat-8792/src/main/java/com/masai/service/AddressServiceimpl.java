@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import com.masai.exception.AddressException;
 import com.masai.exception.LoginException;
 import com.masai.model.Address;
+import com.masai.model.Customer;
 import com.masai.model.Session;
 import com.masai.repository.AddressDao;
 import com.masai.repository.CustomerDao;
@@ -39,7 +40,24 @@ public class AddressServiceimpl  implements AddressService{
 		}
 		else
 		{
-		   return ads.save(add);
+		      
+			Optional<Customer> s = cust.findById(loggedInUser.getUserId());
+			
+			
+			  Customer  ss = s.get();
+			  
+			  Address ad = ads.save(add);
+			  
+			   ss.setAddress(ad);
+			   
+			   
+			   cust.save(ss);
+			   
+			   return ad;
+			  
+			 
+			     
+			
 		}
 		
 	}
@@ -56,7 +74,23 @@ public class AddressServiceimpl  implements AddressService{
 		}
 		else
 		{
-		   return ads.save(add);
+		    
+			Optional<Customer> s = cust.findById(loggedInUser.getUserId());
+			
+			
+			  Customer  ss = s.get();
+			  
+			  Address ad = ads.save(add);
+			  
+			   ss.setAddress(ad);
+			   
+			   
+			   cust.save(ss);
+			   
+			   return ad;
+			  
+			
+			   
 		}
 	
 	}

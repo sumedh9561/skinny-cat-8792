@@ -77,7 +77,7 @@ public class LoginServiceImpl  implements LoginService{
 			  
 			  if(existingCustomer == null) {
 					
-					throw new LoginException("Please Enter a valid mobile number");
+					throw new LoginException("Please Enter a valid email  and password");
 					
 					 
 				}

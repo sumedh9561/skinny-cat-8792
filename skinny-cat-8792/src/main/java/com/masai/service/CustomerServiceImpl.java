@@ -61,9 +61,16 @@ public class CustomerServiceImpl  implements CustomerService{
 		{
 			throw new LoginException("You are not authoridzed to update this ");
 		}
-		else
-		{
-			return cus.save(customer);
+      else if( customer.getMobilenumber().toCharArray().length != 10 ){
+			
+			throw new CustomerException("Mobile Number can only be of 10 digit");
+		}
+		
+		if(customer.getCustomerId() ==s.getUserId()) {
+			return cus.save(customer) ;
+		}
+		else {
+			throw new CustomerException("Can't change UserID!") ;
 		}
 	
 	}
