@@ -57,4 +57,10 @@ This is a Collaborative project, we have built a rest API service for an Online 
   <img src="Image/shopclub_1.jpeg" width="auto" alt="accessibility text">
 </p>
 
+## Admin Controller
+
+<p align="center">
+  <img src="Image/shopclub_2.jpeg" width="auto" alt="accessibility text">
+</p>
+
 
