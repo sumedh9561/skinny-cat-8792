@@ -51,5 +51,10 @@ This is a Collaborative project, we have built a rest API service for an Online 
 * Tejas Vilas Medade
 * Sumedh Ambhore
 
+## Swagger UI
+
+<p align="center">
+  <img src="Image/shopclub_1.jpeg" width="auto" alt="accessibility text">
+</p>
 
 
