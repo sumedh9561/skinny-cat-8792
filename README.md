@@ -1,4 +1,4 @@
-# Online Shopping Application 
+# Online Shopping Application 🛒
 
 <p align="center">
   <img  src="Image/New Project 7 [6B583D8].png" width="200px" alt="accessibility text">
@@ -54,19 +54,19 @@ This is a Collaborative project, we have built a rest API service for an Online 
 * Tejas Vilas Medade
 * Sumedh Ambhore
 
-## Swagger UI
+## Swagger UI 🛒
 
 <p align="center">
   <img src="Image/shopclub_1.jpeg" width="auto" alt="accessibility text">
 </p>
 
-## Admin Controller
+## Admin Controller 🛒
 
 <p align="center">
   <img src="Image/shopclub_2.jpeg" width="auto" alt="accessibility text">
 </p>
 
-## User Controller
+## User Controller 🛒
 
 <p align="center">
   <img src="Image/shopclub_4.jpeg" width="auto" alt="accessibility text">
